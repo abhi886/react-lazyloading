@@ -19,7 +19,7 @@ const Image = ({ data }) => {
         ref={imageRef}
         height={200}
         width={200}
-        alt='ima for'
+        alt={`img for ${data}`}
         src={visible ? data : null}
       />
     </>

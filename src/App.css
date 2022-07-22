@@ -45,15 +45,5 @@ p {
 .grid-container {
   display: grid;
   gap: 10px;
-  background-color: #2196f3;
-  padding: 10px;
   grid-template-columns: repeat(3, minmax(200px, 1fr));
-}
-
-.image-container {
-  background-color: #ccc;
-  overflow: hidden;
-  position: relative;
-  max-width: 800px;
-  margin: 20px auto;
 }
