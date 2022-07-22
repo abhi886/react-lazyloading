@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+
+h1,
+p {
+  font-family: Lato, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
